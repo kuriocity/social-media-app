@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Home</title>
+
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+</head>
+
+<body>
+    <nav class="navbar  navbar-expand-lg navbar-light bg-light sticky-top shadow-sm mb-3 ">
+        <div class="container">
+            <a class="navbar-brand " href="#">Facebook</a>
+            <form class="d-flex border-start border-end pe-3 w-50 ">
+                <button class="btn border-0 disabled">
+                    <!-- <i class="bi bi-search "></i> -->
+                </button>
+                <input class="form-control me-2 w-100 " type="search" placeholder="🔎 Search" aria-label="Search">
+                <button class="btn btn-outline-primary" type="submit">
+                    Search
+                </button>
+            </form>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse me-auto" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-end">
+                    <li class="nav-item border-start">
+                        <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house"></i> Home</a>
+                    </li>
+                    <li class=" border-start">
+                        <div class="nav-item">
+                            <a class="nav-link active " href="#"><i class="bi bi-person-square my-auto"></i> Profile</a>
+
+                        </div>
+                    </li>
+                    <li class="nav-item border-start">
+                        <a class="nav-link active position-relative" href="#" tabindex="-1" aria-disabled="true"><i
+                                class="bi bi-chat-square-text"></i> Messages
+                            <!-- <span class="badge bg-secondary p-1 m-1 rounded-1 position-absolute top-0 start-50 translate-middle">5</span> -->
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown border-start">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-bell"></i> Notifications
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item  border-start">
+                        <a class="nav-link active" href="#" aria-disabled="true"><i class="bi bi-gear my-auto"></i>
+                            Settings</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Finish of Navbar -->
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3  ">
+                <ul class="position-fixed list-group list-group-flush ">
+                    <li class="list-group-item list-group-item-action ">Profile</li>
+                    <li class="list-group-item list-group-item-action ">Friends</li>
+                    <li class="list-group-item list-group-item-action ">Groups</li>
+                    <li class="list-group-item list-group-item-action ">Messenger
+                        <span class="badge bg-primary rounded-pill">12</span>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="col-md-6 ">
+                <span class="d-inline-block" data-bs-toggle="popover" data-bs-content="Disabled popover"
+                    data-bs-trigger="hover">
+                    <a href="">profile-pic</a>
+                </span>
+
+                <div class="container">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-2">
+                                <img class=""
+                                    src="https://i.dlpng.com/static/png/5066008-circled-user-icon-user-profile-icon-png-png-image-transparent-profile-icon-png-820_860_preview.png"
+                                    alt="...">
+                            </div>
+                            <div class="col-10">
+                                <div class="card-body">
+                                    <h6 class="card-title">Profile Name</h6>
+
+                                    <select class="form-select form-select-sm w-25">
+                                        <option selected>Public</option>
+                                        <option value="1">Friends</option>
+                                        <option value="2">Mutuals</option>
+                                        <option value="3">Nobody</option>
+                                    </select>
+
+                                    <p class="card-text">
+                                        <div class="form-group">
+                                            <textarea class="text-muted  bg-light" placeholder="What's on your mind?"
+                                                name="post" id="" cols="50" rows="3"></textarea>
+                                        </div>
+                                    </p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-2">
+                                    <img class="rounded "
+                                        src="https://cdn2.iconfinder.com/data/icons/facebook-51/32/FACEBOOK_LINE-01-512.png"
+                                        alt="">
+
+                                </div>
+                                <div class="col-10 text-start">
+                                    <h1>Profile</h1>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card bg-light bg-gradient border-light" style="width: 18rem;">
+                    <img src="https://neilpatel.com/wp-content/uploads/2015/10/colors.jpg" class="card-img" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+
+                    </div>
+                </div>
+                <!-- Write Posts -->
+                <div class="container px-4 py-5 mx-auto">
+                    <div class="row d-flex justify-content-center">
+                        <div class="card">
+                            <div class="row px-3">
+                                <img class="profile-pic mr-3 w-25" src="https://i.imgur.com/6tPhTUn.jpg">
+                                <div class="flex-column">
+                                    <h3 class="mb-0 font-weight-normal">Camilla Perez</h3>
+                                    <select name="privacy" class="privacy">
+                                        <option>Public post</option>
+                                        <option>Private post</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row px-3 form-group">
+                                <textarea class="text-muted bg-light mt-4 mb-3"
+                                    placeholder="Hi Camilla, what's on your mind today?">
+                                </textarea>
+                            </div>
+                            <div class="row px-3">
+                                <p class="fa fa-user options  "></p>
+                                <p class="fa fa-map-marker options  "></p>
+                                <p class="fa fa-image options  "></p>
+                                <div class="btn btn-success ">
+                                    Post
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ad eum eveniet, et sed veritatis
+                    non, explicabo
+                    quibusdam quos nulla, laborum repellat dolorem nobis doloribus earum! Impedit recusandae porro
+                    fugiat.</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, et optio. Aliquam placeat
+                    accusamus facilis quis.
+                    Culpa sunt cupiditate facilis sapiente, tenetur illum amet illo voluptatem est deserunt commodi
+                    placeat.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, et optio. Aliquam placeat
+                    accusamus facilis quis.
+                    Culpa sunt cupiditate facilis sapiente, tenetur illum amet illo voluptatem est deserunt commodi
+                    placeat.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, et optio. Aliquam placeat
+                    accusamus facilis quis.
+                    Culpa sunt cupiditate facilis sapiente, tenetur illum amet illo voluptatem est deserunt commodi
+                    placeat.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, et optio. Aliquam placeat
+                    accusamus facilis quis.
+                    Culpa sunt cupiditate facilis sapiente, tenetur illum amet illo voluptatem est deserunt commodi
+                    placeat.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, et optio. Aliquam placeat
+                    accusamus facilis quis.
+                    Culpa sunt cupiditate facilis sapiente, tenetur illum amet illo voluptatem est deserunt commodi
+                    placeat.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati harum perferendis esse officiis
+                    aliquid, nobis
+                    excepturi error, sed impedit illum id ex quis. Obcaecati repellendus deserunt officia totam nobis
+                    temporibus.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ipsum suscipit consectetur
+                    dolor voluptas cum
+                    veritatis iure, vitae repellendus laudantium cumque sunt corporis eum. Nihil hic labore aliquid
+                    itaque autem.</p>
+
+            </div>
+            <div class="col-md-3">
+                <div class="position-fixed list-group list-group-flush ">
+                    <a href="#" class="list-group-item list-group-item-action">Your Pages</a>
+                    <a href="#" class="list-group-item list-group-item-action">Birthdays</a>
+                    <a href="#" class="list-group-item list-group-item-action">Contacts</a>
+                    <a href="#" class="list-group-item list-group-item-action">Notifications</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script> -->
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
+    </script>
+
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        });
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl)
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+/* .container{
+    width: 25%;
+    right: auto;
+    left: auto;
+    top: auto;
+    bottom: auto;
+} */
+form {
+  /* margin: auto;
+    width: 25%; */
+}
+body {
+  height: 100%;
+}
+html {
+  height: 100%;
+}
+i {
+  position: relative;
+  bottom: 1.5px;
+}
+/*  */
+img {
+ 
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
